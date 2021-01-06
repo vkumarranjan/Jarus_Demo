@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  JDHomeViewController.swift
 //  Jarus Demo
 //
-//  Created by Vinay Nation on 03/01/21.
+//  Created by Vinay Nation on 05/01/21.
 //
 
 import UIKit
 
 
-class ViewController: UIViewController {
+class JDHomeViewController: UIViewController {
 
     
     // MARK: - Properties
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Choose Equipment"
-        self.view.backgroundColor = .lightGray
+        self.view.backgroundColor = .green
         self.configureTableview()
         self.setupTableView()
         
@@ -65,4 +65,5 @@ class ViewController: UIViewController {
     
 
 }
+
 
